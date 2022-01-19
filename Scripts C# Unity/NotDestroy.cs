@@ -21,4 +21,20 @@ public class NotDestroy: MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+
+
+    // se bugar use essa linha de código no lugar da de cima 
+
+    //private void Awake()
+    //{
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(instance);
+    //    }
+    //    else 
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 }
